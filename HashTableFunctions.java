@@ -9,10 +9,15 @@ class HashTableFunctions
 
    // returns True if the hash table contains string s
    // return False if the hash table does not contain string s
-   boolean find ( String s, int h, int hashTableSize, String [] hashTableArray )
-   {
-      // WRITE YOUR CODE HERE
-      return true;
+   boolean find ( String s, int h, int hashTableSize, String [] hashTableArray ){
+      boolean flag = false;
+      for(element : hashTableArray){
+         if(s == element){
+            flag = true;
+            break;
+         }
+      }
+      return flag;
    }
 
    public void setWeights(String newWeights) {
