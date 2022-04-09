@@ -11,7 +11,7 @@ class HashTableFunctions
    // return False if the hash table does not contain string s
    boolean find ( String s, int h, int hashTableSize, String [] hashTableArray ){
       boolean flag = false;
-      for(element : hashTableArray){
+      for(String element : hashTableArray){
          if(s == element){
             flag = true;
             break;
