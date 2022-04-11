@@ -47,7 +47,7 @@ public class MyThread extends RecursiveAction{
            
             
             int index = 0;
-            Scanner file = new Scanner(new FileInputStream("Data2.txt"));
+            Scanner file = new Scanner(new FileInputStream("InputFile.txt"));
 
             while(file.hasNext()){
               // obj.main(new String [] {"100",file.nextLine()});
