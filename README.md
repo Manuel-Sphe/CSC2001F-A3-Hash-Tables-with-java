@@ -28,5 +28,7 @@ Submit your solution as a ZIP file to the Automatic Marker.  You need to submit 
 
 
 # To execute this 
+$ python3 data.py
 $ javac *.java
 $ java MyThread
+
