@@ -27,8 +27,8 @@ Write a program to check every option to find the optimal solution.
 Submit your solution as a ZIP file to the Automatic Marker.  You need to submit the HashTableFunctions.java file and all other code you used to find the solution.  This assignment is automatically-marked but must still document all your code.  There is no requirement for a Makefile, javadocs output, git or a report.  A tutor may, however, check your code manually to ensure that you have answered the question.
 
 
-# To execute on a Terminal: 
-`$ python3 data.py`
-`$ javac *.java`
-`$ java MyThread`
+## To execute on a Terminal: 
+- `$ python3 data.py`
+- `$ javac *.java`
+- `$ java MyThread`
 
