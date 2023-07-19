@@ -41,16 +41,14 @@ public class MyThread extends RecursiveAction{
     }
 
     public static void main(String[] args) {
-        try{
-
+        try(
+            Scanner file = new Scanner(new FileInputStream("InputFile.txt")); 
+        ){
             String [] array =  new String[(int) Math.pow(5, 9)];
            
-            
             int index = 0;
-            Scanner file = new Scanner(new FileInputStream("InputFile.txt"));
 
             while(file.hasNext()){
-              // obj.main(new String [] {"100",file.nextLine()});
               array[index++] = file.nextLine();
             }
 
